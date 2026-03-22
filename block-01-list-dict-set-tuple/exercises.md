@@ -1,4 +1,4 @@
-# Blok 1 - Ćwiczenia
+ # Blok 1 - Ćwiczenia
 
 Pracuj w jednym pliku `practice.py` albo w kilku małych skryptach. Najpierw zrób część `core`, potem `plus`, na końcu `stretch`.
 
