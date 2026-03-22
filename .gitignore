@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+.pytest_cache/
+*.pyc
+*.pyo
+*.DS_Store
+output/
+**/data/users_updated.json
+**/data/report.json

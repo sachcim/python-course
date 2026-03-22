@@ -1,0 +1,22 @@
+[
+  {
+    "title": "Nauka Pythona",
+    "done": true,
+    "priority": 2
+  },
+  {
+    "title": "Przygotować CV",
+    "done": false,
+    "priority": 1
+  },
+  {
+    "title": "Przeczytać o GCP",
+    "done": false,
+    "priority": 3
+  },
+  {
+    "title": "Przejrzeć oferty pracy",
+    "done": true,
+    "priority": 2
+  }
+]
