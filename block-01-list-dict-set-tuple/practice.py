@@ -3,7 +3,7 @@
 # print(imiona)
 #
 # print(imiona[0])
-# print(imiona[4])
+# print(imiona[-1])
 # print(len(imiona))
 
 # user = {
@@ -20,7 +20,8 @@
 # print(f"Unikalne Elementy: {uniqueNum}, Ilość elementów: {len(uniqueNum)}")
 
 # point = (120, 350)
-# print(point[0], point[1])
+# x,y=point
+# print(x, y)
 
 names = ["Michał", "Kajetan", "Marcin", "Andrzej", "Ola"]
 
