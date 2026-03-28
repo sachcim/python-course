@@ -1,0 +1,7 @@
+[
+  { "id": 1, "name": "Anna", "age": 28, "email": "anna@example.com" },
+  { "id": 2, "name": "Bartek", "age": "not_a_number", "email": "bartek@example.com" },
+  { "id": 3, "name": "Celina", "email": "celina@example.com" },
+  { "id": 4, "name": "Darek", "age": null, "email": null },
+  { "id": 5, "name": "", "age": -5, "email": "invalid_email" }
+]
