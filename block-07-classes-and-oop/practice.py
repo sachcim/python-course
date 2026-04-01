@@ -44,6 +44,7 @@ class TaskList:
 
     def add_task(self, task: Task):
         self.tasks.append(task)
+
     def undone_tasks(self):
         undone_tasks = []
         for task in self.tasks:
