@@ -57,6 +57,7 @@ Pełny skrót komend i zasady jakości commitów znajdziesz w `git-github-playbo
 - `block-08-dataclass`
 - `block-09-sorting-lambda-any-all`
 - `block-10-mini-project`
+- `block-11-bonus-pandas`
 
 Każdy blok ma stały układ:
 
@@ -78,20 +79,44 @@ Każdy blok ma stały układ:
 9. Dzień 9: sortowanie, `lambda`, `any`, `all`
 10. Dzień 10: mini projekt `Task Report Generator`
 
+## Bonus Po Kursie
+
+Po domknięciu 10 bloków możesz dorzucić bonusowy blok `block-11-bonus-pandas`.
+
+To nie jest część rdzenia kursu. Ten bonus ma sens dopiero wtedy, gdy:
+
+- rozumiesz już `csv.DictReader`
+- wiesz, czym jest lista słowników
+- umiesz filtrować i sortować dane "ręcznie"
+
+Instalacja bonusu:
+
+```bash
+python3 -m pip install -r requirements-bonus-pandas.txt
+```
+
+W bonusie przećwiczysz:
+
+- `read_csv`
+- pracę na `DataFrame`
+- filtrowanie i sortowanie tabel
+- tworzenie kolumny wyliczanej
+- prosty raport zapisany do JSON
+
 ## Postęp 10 dni
 
 | Dzień | Blok | Status | Artefakt dnia | Commit dnia |
-| --- | --- |-----| --- | --- |
-| 1 | Listy, słowniki, sety, tuple | ✓   | Pierwsze skrypty z kolekcjami i porównaniem struktur | `day-01: collections basics` |
-| 2 | Operacje na listach i pythoniczne podstawy | ✓   | Zadania z slicingiem, `enumerate` i `zip` | `day-02: list operations and slicing` |
-| 3 | Filtrowanie i przetwarzanie danych | ✓   | Filtrowanie użytkowników i mały raport tekstowy | `day-03: filtering and list comprehensions` |
-| 4 | Funkcje, typowanie i narzędzia | ✓   | Małe funkcje, pierwsze testy i `venv` | `day-04: functions and first tests` |
-| 5 | Pliki, JSON, CSV | ✓   | Skrypty do odczytu, zapisu i prostych raportów | `day-05: files json and csv` |
-| 6 | Błędy i `try/except` | ✓   | Obsługa wyjątków i odporne funkcje pomocnicze | `day-06: error handling and try except` |
-| 7 | Klasy i OOP praktycznie | ✓    | Klasy `Book`, `Task`, `BankAccount` i proste użycie | `day-07: practical classes and oop` |
-| 8 | `dataclass` | ✓   | Refaktor modeli danych do `dataclass` | `day-08: dataclass refactor` |
-| 9 | Sortowanie, `lambda`, `any`, `all` | ✓   | Sortowanie i logiczne sprawdzenia warunków | `day-09: sorting lambda any all` |
-| 10 | Mini projekt `Task Report Generator` | ⬜   | Działający mini projekt z opisem uruchomienia | `day-10: finish task report generator` |
+| --- | --- |----| --- | --- |
+| 1 | Listy, słowniki, sety, tuple | ✓  | Pierwsze skrypty z kolekcjami i porównaniem struktur | `day-01: collections basics` |
+| 2 | Operacje na listach i pythoniczne podstawy | ✓  | Zadania z slicingiem, `enumerate` i `zip` | `day-02: list operations and slicing` |
+| 3 | Filtrowanie i przetwarzanie danych | ✓  | Filtrowanie użytkowników i mały raport tekstowy | `day-03: filtering and list comprehensions` |
+| 4 | Funkcje, typowanie i narzędzia | ✓  | Małe funkcje, pierwsze testy i `venv` | `day-04: functions and first tests` |
+| 5 | Pliki, JSON, CSV | ✓  | Skrypty do odczytu, zapisu i prostych raportów | `day-05: files json and csv` |
+| 6 | Błędy i `try/except` | ✓  | Obsługa wyjątków i odporne funkcje pomocnicze | `day-06: error handling and try except` |
+| 7 | Klasy i OOP praktycznie | ✓   | Klasy `Book`, `Task`, `BankAccount` i proste użycie | `day-07: practical classes and oop` |
+| 8 | `dataclass` | ✓  | Refaktor modeli danych do `dataclass` | `day-08: dataclass refactor` |
+| 9 | Sortowanie, `lambda`, `any`, `all` | ✓  | Sortowanie i logiczne sprawdzenia warunków | `day-09: sorting lambda any all` |
+| 10 | Mini projekt `Task Report Generator` | ✓   | Działający mini projekt z opisem uruchomienia | `day-10: finish task report generator` |
 
 ## Dzienny update
 

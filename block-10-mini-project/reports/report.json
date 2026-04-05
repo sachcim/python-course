@@ -1,0 +1,32 @@
+{
+  "total_tasks": 5,
+  "completed_tasks": 3,
+  "incomplete_tasks": 2,
+  "tasks": [
+    {
+      "title": "Przygotować CV",
+      "done": true,
+      "priority": 1
+    },
+    {
+      "title": "Buy groceries",
+      "done": false,
+      "priority": 1
+    },
+    {
+      "title": "Nauka Pythona",
+      "done": true,
+      "priority": 2
+    },
+    {
+      "title": "Przejrzeć oferty pracy",
+      "done": true,
+      "priority": 2
+    },
+    {
+      "title": "Przeczytać o GCP",
+      "done": false,
+      "priority": 3
+    }
+  ]
+}

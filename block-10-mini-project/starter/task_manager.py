@@ -1,5 +1,5 @@
-from dataclasses import dataclass
-
+from dataclasses import dataclass, asdict
+from typing import Optional
 
 @dataclass
 class Task:
@@ -9,14 +9,29 @@ class Task:
 
 
 class TaskManager:
-    def __init__(self, tasks: list[Task] | None = None):
+    def __init__(self, tasks: Optional[list[Task]] = None):
         self.tasks = tasks or []
 
     def add_task(self, task: Task) -> None:
-        raise NotImplementedError("Uzupełnij metodę add_task")
+        self.tasks.append(task)
+        return None
 
     def mark_done(self, title: str) -> bool:
-        raise NotImplementedError("Uzupełnij metodę mark_done")
+        for task in self.tasks:
+            if task.title == title:
+                task.done = True
+                return True
+        return False
 
     def generate_report(self) -> dict:
-        raise NotImplementedError("Uzupełnij metodę generate_report")
+        total_tasks = len(self.tasks)
+        completed_tasks = sum(task.done for task in self.tasks)
+        incomplete_tasks = sum(not task.done for task in self.tasks)
+        sorted_tasks = sorted(self.tasks, key=lambda task: task.priority)
+
+        report = {"total_tasks": total_tasks,
+                  "completed_tasks": completed_tasks,
+                  "incomplete_tasks": incomplete_tasks,
+                  "tasks": [asdict(task) for task in sorted_tasks]}
+
+        return report

@@ -1,0 +1,7 @@
+order_id,customer,category,price,quantity,status
+1,Michał,books,49.99,1,paid
+2,Ania,course,129.00,1,pending
+3,Tomek,books,39.99,2,paid
+4,Ola,subscription,19.99,3,paid
+5,Kasia,course,199.00,1,paid
+6,Bartek,tools,59.50,2,pending
