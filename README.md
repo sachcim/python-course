@@ -90,7 +90,7 @@ Każdy blok ma stały układ:
 | 6 | Błędy i `try/except` | ✓   | Obsługa wyjątków i odporne funkcje pomocnicze | `day-06: error handling and try except` |
 | 7 | Klasy i OOP praktycznie | ✓    | Klasy `Book`, `Task`, `BankAccount` i proste użycie | `day-07: practical classes and oop` |
 | 8 | `dataclass` | ✓   | Refaktor modeli danych do `dataclass` | `day-08: dataclass refactor` |
-| 9 | Sortowanie, `lambda`, `any`, `all` | ⬜   | Sortowanie i logiczne sprawdzenia warunków | `day-09: sorting lambda any all` |
+| 9 | Sortowanie, `lambda`, `any`, `all` | ✓   | Sortowanie i logiczne sprawdzenia warunków | `day-09: sorting lambda any all` |
 | 10 | Mini projekt `Task Report Generator` | ⬜   | Działający mini projekt z opisem uruchomienia | `day-10: finish task report generator` |
 
 ## Dzienny update
